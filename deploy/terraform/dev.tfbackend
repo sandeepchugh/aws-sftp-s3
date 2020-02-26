@@ -1,0 +1,5 @@
+bucket          = "terraform-state-dev"
+dynamodb_table  = "terraform-state-dev"
+key             = "aws-sftp-s3"
+region          = "us-east-2"
+encrypt         = "true"
