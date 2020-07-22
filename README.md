@@ -30,12 +30,7 @@ terraform apply -var-file dev.tfvars
 
 ```
 
-PRODUCTION
-```shell script
-terraform init -backend-config prod.tfbackend
-terraform plan -var-file prod.tfvars
-terraform apply -var-file prod.tfvars
-```
+Note: Change the bucket name in dev.tfbackend to a unique bucket name 
 
 ### How does this work?
 Once the SFTP endpoint has been setup, it can be accessed via any FTP client. Users need to be setup using the AWS Console or via Terraform.
